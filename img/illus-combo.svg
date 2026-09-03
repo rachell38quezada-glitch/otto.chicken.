@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración de combo OTTO">
+  <circle cx="200" cy="200" r="190" fill="#031E5B"/>
+  <!-- box -->
+  <path d="M90 190 h220 l-16 130 q-2 16 -18 16 h-168 q-16 0 -18 -16 z" fill="#FFD328" stroke="#0A0A0A" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M80 160 h240 l-10 30 h-220 z" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M120 160 q-6 -40 30 -46 q50 -8 60 46 z" fill="none" stroke="#0A0A0A" stroke-width="7"/>
+  <text x="200" y="245" font-family="Arial, sans-serif" font-weight="900" font-size="30" fill="#063C98" text-anchor="middle">COMBO</text>
+  <!-- drink peeking -->
+  <path d="M270 120 l10 -46 h34 l10 46 z" fill="#063C98" stroke="#0A0A0A" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="278" y="60" width="38" height="14" rx="3" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="5"/>
+</svg>

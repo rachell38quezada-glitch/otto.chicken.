@@ -1,0 +1,8 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración de dine-in OTTO">
+  <rect width="300" height="300" fill="#0A0A0A"/>
+  <g stroke="#FFD328" stroke-width="7" stroke-linejoin="round" fill="none">
+    <circle cx="150" cy="150" r="70" fill="#063C98"/>
+    <circle cx="150" cy="150" r="46"/>
+  </g>
+  <text x="150" y="158" font-family="Arial, sans-serif" font-weight="900" font-size="16" fill="#FFD328" text-anchor="middle">OTTO</text>
+</svg>

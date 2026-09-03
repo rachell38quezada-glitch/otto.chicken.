@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OTTO CHICKEN — Crispy Street Food | Santo Domingo, RD</title>
+<meta name="description" content="OTTO CHICKEN: crispy street food en Santo Domingo. Crispy chicken, burgers, tenders, fries y combos hechos para ponerle fin al 'no sé qué pedir'. Delivery, pickup y dine-in.">
+<meta name="theme-color" content="#063C98">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OTTO CHICKEN">
+<meta property="og:title" content="OTTO CHICKEN — Crispy Street Food">
+<meta property="og:description" content="Crispy chicken, burgers, tenders, fries y combos hechos para ponerle fin al 'no sé qué pedir'. Santo Domingo, RD.">
+<meta property="og:image" content="images/hero-sandwich.svg">
+<meta property="og:locale" content="es_DO">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="apple-touch-icon" href="images/favicon.svg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Kalam:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+<!-- Schema.org (solo datos no inventados; completar dirección, teléfono y horario cuando existan datos oficiales) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "OTTO CHICKEN",
+  "description": "Marca dominicana de crispy street food: crispy chicken, burgers, tenders, fries y combos.",
+  "servesCuisine": ["Crispy Chicken", "Street Food", "Fast Food"],
+  "areaServed": "Santo Domingo, República Dominicana",
+  "image": "images/hero-sandwich.svg"
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="#inicio" class="logo" aria-label="OTTO CHICKEN, inicio">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="34" height="34"><circle cx="20" cy="20" r="20" fill="#FFD328"/><path d="M20 8c-7 0-11 5-11 12 0 6 4 10 9 11l1-5c-3-1-5-3-5-6 0-4 3-7 7-7s7 3 7 7c0 3-2 5-5 6l1 5c5-1 9-5 9-11 0-7-4-12-13-12z" fill="#063C98"/></svg>
+      </span>
+      <span class="logo-word">OTTO<span class="logo-sub">CHICKEN</span></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+        <li><a href="#menu" class="nav-link">Menú</a></li>
+        <li><a href="#menu" class="nav-link" data-filter-link="combos">Combos</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#locales" class="nav-link">Locales</a></li>
+        <li><a href="#horarios" class="nav-link">Horarios</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a class="icon-link" href="https://instagram.com/otto.chicken" target="_blank" rel="noopener" aria-label="OTTO CHICKEN en Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+      </a>
+      <a class="icon-link" href="#" data-whatsapp-link target="_blank" rel="noopener" aria-label="OTTO CHICKEN por WhatsApp">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.5 0 9.96-4.46 9.96-9.96S17.54 2 12.04 2Zm0 18.2h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.11.82.83-3.03-.2-.31a8.23 8.23 0 1 1 6.98 3.85Zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.4-.12-.56.13-.17.25-.65.81-.8.97-.15.17-.29.19-.54.06-.25-.12-1.06-.39-2.01-1.24-.74-.66-1.25-1.48-1.39-1.73-.15-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.23.89 2.42 1.02 2.58.12.17 1.75 2.67 4.24 3.75.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.16-.48-.28Z"/></svg>
+      </a>
+      <a href="#" class="btn btn-yellow btn-small" data-open-modal>Ordenar ahora</a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <div class="hero-decor" aria-hidden="true">
+      <span class="deco-dot dot-1"></span>
+      <span class="deco-dot dot-2"></span>
+      <span class="deco-star star-1">✦</span>
+      <span class="deco-star star-2">✦</span>
+      <span class="deco-arrow">↴</span>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="sticker sticker-yellow tilt-left">Santo Domingo · Crispy Street Food</span>
+        <h1 class="display-xl">CRISPY STREET<br>FOOD DONE<br>THE OTTO<br>WAY.</h1>
+        <p class="hero-sub">Crispy chicken, burgers, tenders, fries y combos hechos para ponerle fin al “no sé qué pedir”.</p>
+        <div class="hero-cta">
+          <a href="#" class="btn btn-yellow" data-open-modal>Ordenar ahora</a>
+          <a href="#menu" class="btn btn-outline-light">Ver menú</a>
+        </div>
+        <ul class="hero-tags">
+          <li>Santo Domingo</li>
+          <li>Delivery</li>
+          <li>Pickup</li>
+          <li>Dine-in</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual">
+        <img src="images/hero-sandwich.svg" alt="Chicken sandwich crispy de OTTO CHICKEN" class="hero-img" width="900" height="900">
+        <button class="order-badge" data-open-modal type="button" aria-label="Ordenar ahora">
+          <svg viewBox="0 0 200 200" class="order-badge-ring" aria-hidden="true">
+            <path id="badgePath" fill="none" d="M100,20 a80,80 0 1,1 -0.1,0"></path>
+            <text font-size="15.5" font-weight="700" letter-spacing="2">
+              <textPath href="#badgePath" startOffset="0%">ORDER NOW ✦ ORDER NOW ✦ ORDER NOW ✦ </textPath>
+            </text>
+          </svg>
+          <span class="order-badge-center">GO</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>CRISPY STREET FOOD ✦ OTTO CHICKEN ✦ SANTO DOMINGO ✦ CRUNCH MODE ON ✦ OTTO CHICKEN ✦ CRISPY STREET FOOD ✦ OTTO CHICKEN ✦ SANTO DOMINGO ✦ CRUNCH MODE ON ✦ OTTO CHICKEN ✦ </span>
+      <span>CRISPY STREET FOOD ✦ OTTO CHICKEN ✦ SANTO DOMINGO ✦ CRUNCH MODE ON ✦ OTTO CHICKEN ✦ CRISPY STREET FOOD ✦ OTTO CHICKEN ✦ SANTO DOMINGO ✦ CRUNCH MODE ON ✦ OTTO CHICKEN ✦ </span>
+    </div>
+  </div>
+
+  <!-- ============ PRODUCTOS DESTACADOS ============ -->
+  <section class="section featured" id="destacados">
+    <div class="container">
+      <h2 class="display-lg reveal">LOS QUE SIEMPRE<br>RESUELVEN.</h2>
+
+      <div class="featured-grid">
+        <article class="product-card bg-blue reveal">
+          <span class="product-tag tag-yellow">Best Seller</span>
+          <img src="images/illus-burger.svg" alt="Otto Classic Burger" loading="lazy" width="400" height="400">
+          <h3>Otto Classic Burger</h3>
+          <p>Patty crispy, queso derretido y la salsa OTTO en un pan brioche tostado.</p>
+          <div class="product-foot">
+            <span class="price">RD$ XXX</span>
+            <a href="#" class="btn btn-yellow btn-small" data-open-modal>Pedir</a>
+          </div>
+        </article>
+
+        <article class="product-card bg-yellow reveal">
+          <span class="product-tag tag-blue">Otto Favorite</span>
+          <img src="images/illus-sandwich.svg" alt="Otto Chicken Sandwich" loading="lazy" width="400" height="400">
+          <h3>Otto Chicken Sandwich</h3>
+          <p>Pechuga crispy jugosa por dentro, pickles y mayo especiada.</p>
+          <div class="product-foot">
+            <span class="price">RD$ XXX</span>
+            <a href="#" class="btn btn-blue btn-small" data-open-modal>Pedir</a>
+          </div>
+        </article>
+
+        <article class="product-card bg-dark reveal">
+          <span class="product-tag tag-yellow">Best Seller</span>
+          <img src="images/illus-tenders.svg" alt="Otto Tenders" loading="lazy" width="400" height="400">
+          <h3>Otto Tenders</h3>
+          <p>Crispy por fuera, jugosos por dentro. Con tu salsa OTTO favorita.</p>
+          <div class="product-foot">
+            <span class="price">RD$ XXX</span>
+            <a href="#" class="btn btn-yellow btn-small" data-open-modal>Pedir</a>
+          </div>
+        </article>
+
+        <article class="product-card bg-white reveal">
+          <span class="product-tag tag-blue">New</span>
+          <img src="images/illus-fries.svg" alt="Otto Wow Fries" loading="lazy" width="400" height="400">
+          <h3>Otto Wow Fries</h3>
+          <p>Papas crispy bañadas en topping OTTO. Antojo directo.</p>
+          <div class="product-foot">
+            <span class="price">RD$ XXX</span>
+            <a href="#" class="btn btn-blue btn-small" data-open-modal>Pedir</a>
+          </div>
+        </article>
+
+        <article class="product-card bg-blue reveal">
+          <span class="product-tag tag-yellow">Combo</span>
+          <img src="images/illus-combo.svg" alt="Combo Otto Classic" loading="lazy" width="400" height="400">
+          <h3>Combo Otto Classic</h3>
+          <p>Burger, fries y bebida. La combinación que nunca falla.</p>
+          <div class="product-foot">
+            <span class="price">RD$ XXX</span>
+            <a href="#" class="btn btn-yellow btn-small" data-open-modal>Pedir</a>
+          </div>
+        </article>
+
+        <article class="product-card bg-yellow reveal">
+          <span class="product-tag tag-blue">Spicy</span>
+          <img src="images/illus-sides.svg" alt="Onion Rings Otto" loading="lazy" width="400" height="400">
+          <h3>Onion Rings Otto</h3>
+          <p>Aros crispy con dip de la casa. El acompañante ideal.</p>
+          <div class="product-foot">
+            <span class="price">RD$ XXX</span>
+            <a href="#" class="btn btn-blue btn-small" data-open-modal>Pedir</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MENÚ COMPLETO ============ -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="menu-head reveal">
+        <h2 class="display-lg">EL MENÚ<br>OTTO.</h2>
+        <div class="menu-search">
+          <label for="menu-search-input" class="visually-hidden">¿Qué se te antoja?</label>
+          <input type="search" id="menu-search-input" placeholder="¿QUÉ SE TE ANTOJA?" autocomplete="off">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+      </div>
+
+      <div class="menu-filters reveal" id="menu-filters" role="tablist" aria-label="Filtrar menú por categoría">
+        <button class="chip is-active" data-filter="todos" role="tab" aria-selected="true">Todos</button>
+        <button class="chip" data-filter="burgers" role="tab" aria-selected="false">Burgers</button>
+        <button class="chip" data-filter="tenders" role="tab" aria-selected="false">Tenders</button>
+        <button class="chip" data-filter="sandwiches" role="tab" aria-selected="false">Sandwiches</button>
+        <button class="chip" data-filter="combos" role="tab" aria-selected="false">Combos</button>
+        <button class="chip" data-filter="fries" role="tab" aria-selected="false">Fries</button>
+        <button class="chip" data-filter="sides" role="tab" aria-selected="false">Sides</button>
+        <button class="chip" data-filter="drinks" role="tab" aria-selected="false">Drinks</button>
+      </div>
+
+      <p class="menu-empty" id="menu-empty" hidden>No encontramos nada con eso… prueba otra palabra o categoría.</p>
+
+      <div class="menu-grid" id="menu-grid">
+
+        <article class="menu-item" data-category="burgers" data-search="otto classic burger crispy queso">
+          <img src="images/illus-burger.svg" alt="Otto Classic Burger" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Otto Classic Burger</h3><span class="price">RD$ XXX</span></div>
+            <p>Patty crispy, queso derretido, pickles y salsa OTTO en pan brioche.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-yellow">Best Seller</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="burgers" data-search="otto cheese crunch burger queso">
+          <img src="images/illus-burger.svg" alt="Otto Cheese Crunch" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Otto Cheese Crunch</h3><span class="price">RD$ XXX</span></div>
+            <p>Doble capa de queso derretido sobre patty crispy bien dorada.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-blue">Otto Favorite</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="burgers" data-search="otto spicy burger picante" data-spicy="2">
+          <img src="images/illus-burger.svg" alt="Otto Spicy Burger" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Otto Spicy Burger</h3><span class="price">RD$ XXX</span></div>
+            <p>Para quienes piden más picante. Salsa OTTO hot y pickles crocantes.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-yellow">Spicy 🌶️🌶️</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="tenders" data-search="otto tenders x5 crispy">
+          <img src="images/illus-tenders.svg" alt="Otto Tenders x5" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Otto Tenders x5</h3><span class="price">RD$ XXX</span></div>
+            <p>Cinco tenders crispy, jugosos por dentro, con tu salsa favorita.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-yellow">Best Seller</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="tenders" data-search="otto tenders x8 crispy">
+          <img src="images/illus-tenders.svg" alt="Otto Tenders x8" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Otto Tenders x8</h3><span class="price">RD$ XXX</span></div>
+            <p>Para compartir (o no). Ocho tenders crispy con dos salsas a elegir.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-blue">Para compartir</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="sandwiches" data-search="otto chicken sandwich crispy">
+          <img src="images/illus-sandwich.svg" alt="Otto Chicken Sandwich" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Otto Chicken Sandwich</h3><span class="price">RD$ XXX</span></div>
+            <p>Pechuga crispy, pickles y mayo especiada en pan suave tostado.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-yellow">New</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="sandwiches" data-search="otto spicy sandwich picante" data-spicy="3">
+          <img src="images/illus-sandwich.svg" alt="Otto Spicy Sandwich" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Otto Spicy Sandwich</h3><span class="price">RD$ XXX</span></div>
+            <p>Nivel de picor alto. No apto para indecisos.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-yellow">Spicy 🌶️🌶️🌶️</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="combos" data-search="combo otto classic burger fries bebida">
+          <img src="images/illus-combo.svg" alt="Combo Otto Classic" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Combo Otto Classic</h3><span class="price">RD$ XXX</span></div>
+            <p>Otto Classic Burger + Wow Fries + bebida.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-blue">Combo</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="combos" data-search="combo otto tenders fries bebida">
+          <img src="images/illus-combo.svg" alt="Combo Otto Tenders" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Combo Otto Tenders</h3><span class="price">RD$ XXX</span></div>
+            <p>Otto Tenders x5 + Wow Fries + bebida.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-blue">Combo</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="fries" data-search="otto wow fries clasicas papas">
+          <img src="images/illus-fries.svg" alt="Wow Fries Clásicas" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Wow Fries Clásicas</h3><span class="price">RD$ XXX</span></div>
+            <p>Papas crispy con el sazón OTTO. Sencillas y perfectas.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-yellow">Fries</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="fries" data-search="otto wow fries cheddar papas queso">
+          <img src="images/illus-fries.svg" alt="Wow Fries Cheddar" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Wow Fries Cheddar</h3><span class="price">RD$ XXX</span></div>
+            <p>Bañadas en topping de queso cheddar OTTO.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-yellow">New</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="sides" data-search="onion rings otto aros cebolla">
+          <img src="images/illus-sides.svg" alt="Onion Rings Otto" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Onion Rings Otto</h3><span class="price">RD$ XXX</span></div>
+            <p>Aros crispy con dip de la casa. El acompañante ideal.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-blue">Side</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="sides" data-search="nuggets otto crispy pollo">
+          <img src="images/illus-sides.svg" alt="Nuggets Otto" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Nuggets Otto</h3><span class="price">RD$ XXX</span></div>
+            <p>Bocados crispy de pollo, ideales para combinar o compartir.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-blue">Side</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="drinks" data-search="refresco otto bebida soda">
+          <img src="images/illus-drink.svg" alt="Refresco Otto" loading="lazy" width="400" height="400">
+          <div class="menu-item-body">
+            <div class="menu-item-title"><h3>Refresco Otto</h3><span class="price">RD$ XXX</span></div>
+            <p>Bebida fría para acompañar tu crispy favorito.</p>
+            <div class="menu-item-foot">
+              <span class="product-tag tag-blue">Drink</span>
+              <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SECCIÓN PROMOCIONAL ============ -->
+  <section class="section promo">
+    <div class="promo-grid">
+      <div class="promo-visual reveal">
+        <img src="images/promo-burger.svg" alt="Corte transversal de hamburguesa OTTO: dorada por fuera, jugosa por dentro" loading="lazy" width="800" height="700">
+      </div>
+      <div class="promo-copy reveal">
+        <h2 class="display-xl">THE<br>CRUNCH<br>IS REAL.</h2>
+        <p>Golden outside.<br>Juicy inside.<br>Pure OTTO.</p>
+        <a href="#menu" class="btn btn-blue">Try Otto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NO SÉ QUÉ PEDIR ============ -->
+  <section class="section shuffle-section">
+    <div class="container shuffle-inner reveal">
+      <span class="sticker sticker-blue tilt-right">Poniéndole fin al “no sé qué pedir”</span>
+      <h2 class="display-lg">¿NO SABES<br>QUÉ PEDIR?</h2>
+      <p>OTTO decide por ti.</p>
+      <button class="btn btn-yellow" id="shuffle-btn" type="button">Sorpréndeme</button>
+      <div class="shuffle-result" id="shuffle-result" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE OTTO ============ -->
+  <section class="section about" id="nosotros">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <h2 class="display-lg">FROM GHOST<br>KITCHEN<br>TO STREET<br>ICON.</h2>
+          <p>OTTO comenzó como una ghost kitchen en Santo Domingo enfocada en delivery y pickup. Su propuesta de crispy street food empezó a ganar popularidad rápidamente hasta convertir la marca en una comunidad alrededor del crispy chicken, los burgers y una manera diferente de hacer fast food.</p>
+          <p>Su crecimiento permitió llevar la experiencia OTTO más allá del delivery y expandirse hacia establecimientos físicos.</p>
+        </div>
+        <div class="about-photos reveal">
+          <img src="images/about-kitchen.svg" alt="Cocina OTTO CHICKEN" loading="lazy" width="500" height="400">
+          <img src="images/about-packaging.svg" alt="Packaging de OTTO CHICKEN" loading="lazy" width="500" height="400">
+          <img src="images/about-community.svg" alt="Comunidad y clientes OTTO CHICKEN" loading="lazy" width="500" height="400">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MODALIDADES ============ -->
+  <section class="section modalities">
+    <div class="container">
+      <h2 class="display-lg reveal">HOW DO YOU<br>OTTO?</h2>
+      <div class="modalities-grid">
+        <div class="modality-card reveal">
+          <img src="images/modality-delivery.svg" alt="Delivery OTTO" loading="lazy" width="300" height="300">
+          <h3>Delivery</h3>
+          <p>Tu OTTO favorito directo a tu puerta.</p>
+        </div>
+        <div class="modality-card reveal">
+          <img src="images/modality-pickup.svg" alt="Pickup OTTO" loading="lazy" width="300" height="300">
+          <h3>Pickup</h3>
+          <p>Ordena, recoge y sigue con tu día.</p>
+        </div>
+        <div class="modality-card reveal">
+          <img src="images/modality-dinein.svg" alt="Dine-in OTTO" loading="lazy" width="300" height="300">
+          <h3>Dine-in</h3>
+          <p>Disfruta la experiencia OTTO en nuestros establecimientos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOCALES ============ -->
+  <section class="section locations" id="locales">
+    <div class="container">
+      <h2 class="display-lg reveal">FIND YOUR<br>OTTO.</h2>
+      <p class="section-note reveal">Información de ejemplo — sustituye cada campo con los datos reales de cada local.</p>
+
+      <div class="locations-grid">
+        <div class="location-card reveal">
+          <h3>[Nombre del local]</h3>
+          <ul class="location-meta">
+            <li><strong>Dirección:</strong> [Pendiente]</li>
+            <li><strong>Teléfono:</strong> [Pendiente]</li>
+            <li><strong>Horario:</strong> [Pendiente]</li>
+          </ul>
+          <div class="location-actions">
+            <a href="https://www.google.com/maps/search/?api=1&query=Santo+Domingo+Rep%C3%BAblica+Dominicana" target="_blank" rel="noopener" class="btn btn-outline-dark btn-small">Cómo llegar</a>
+            <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+          </div>
+        </div>
+
+        <div class="location-card reveal">
+          <h3>[Nombre del local]</h3>
+          <ul class="location-meta">
+            <li><strong>Dirección:</strong> [Pendiente]</li>
+            <li><strong>Teléfono:</strong> [Pendiente]</li>
+            <li><strong>Horario:</strong> [Pendiente]</li>
+          </ul>
+          <div class="location-actions">
+            <a href="https://www.google.com/maps/search/?api=1&query=Santo+Domingo+Rep%C3%BAblica+Dominicana" target="_blank" rel="noopener" class="btn btn-outline-dark btn-small">Cómo llegar</a>
+            <a href="#" class="btn btn-blue btn-small" data-open-modal>Ordenar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-embed reveal">
+        <iframe
+          title="Mapa de Santo Domingo, República Dominicana"
+          src="https://www.google.com/maps?q=Santo+Domingo,+Rep%C3%BAblica+Dominicana&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HORARIOS ============ -->
+  <section class="section hours" id="horarios">
+    <div class="container">
+      <div class="hours-head reveal">
+        <h2 class="display-lg">OTTO<br>O'CLOCK.</h2>
+        <span class="status-badge" id="status-badge">—</span>
+      </div>
+      <ul class="hours-list reveal" id="hours-list">
+        <li><span>Lunes</span><span>XX:XX – XX:XX</span></li>
+        <li><span>Martes</span><span>XX:XX – XX:XX</span></li>
+        <li><span>Miércoles</span><span>XX:XX – XX:XX</span></li>
+        <li><span>Jueves</span><span>XX:XX – XX:XX</span></li>
+        <li><span>Viernes</span><span>XX:XX – XX:XX</span></li>
+        <li><span>Sábado</span><span>XX:XX – XX:XX</span></li>
+        <li><span>Domingo</span><span>XX:XX – XX:XX</span></li>
+      </ul>
+      <p class="section-note reveal">Horario de ejemplo — el estado "OPEN NOW / CLOSED" es funcional y se actualiza con el horario real que definas en <code>script.js</code>.</p>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="section contact" id="contacto">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h2 class="display-lg">LET'S<br>TALK.</h2>
+          <ul>
+            <li><strong>Instagram:</strong> <a href="https://instagram.com/otto.chicken" target="_blank" rel="noopener">@otto.chicken</a></li>
+            <li><strong>WhatsApp:</strong> <a href="#" data-whatsapp-link>[Pendiente]</a></li>
+            <li><strong>Teléfono:</strong> [Pendiente]</li>
+            <li><strong>Correo:</strong> <a href="mailto:hola@ottochicken.com">[correo@pendiente]</a></li>
+            <li><strong>Ubicación:</strong> Santo Domingo, República Dominicana</li>
+          </ul>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-row">
+            <label for="c-name">Nombre</label>
+            <input type="text" id="c-name" name="name" required>
+            <span class="form-error" data-error-for="c-name"></span>
+          </div>
+          <div class="form-row">
+            <label for="c-email">Email</label>
+            <input type="email" id="c-email" name="email" required>
+            <span class="form-error" data-error-for="c-email"></span>
+          </div>
+          <div class="form-row">
+            <label for="c-phone">Teléfono</label>
+            <input type="tel" id="c-phone" name="phone">
+            <span class="form-error" data-error-for="c-phone"></span>
+          </div>
+          <div class="form-row">
+            <label for="c-subject">Asunto</label>
+            <input type="text" id="c-subject" name="subject" required>
+            <span class="form-error" data-error-for="c-subject"></span>
+          </div>
+          <div class="form-row">
+            <label for="c-message">Mensaje</label>
+            <textarea id="c-message" name="message" rows="4" required></textarea>
+            <span class="form-error" data-error-for="c-message"></span>
+          </div>
+          <button type="submit" class="btn btn-yellow">Enviar mensaje</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INSTAGRAM ============ -->
+  <section class="section instagram">
+    <div class="container">
+      <h2 class="display-lg reveal">OTTO ON<br>THE GRAM.</h2>
+      <div class="insta-grid">
+        <a href="https://instagram.com/otto.chicken" target="_blank" rel="noopener" class="insta-tile bg-blue reveal"><img src="images/illus-burger.svg" alt="Post de Instagram OTTO: burger" loading="lazy" width="300" height="300"></a>
+        <a href="https://instagram.com/otto.chicken" target="_blank" rel="noopener" class="insta-tile bg-yellow reveal"><img src="images/illus-tenders.svg" alt="Post de Instagram OTTO: tenders" loading="lazy" width="300" height="300"></a>
+        <a href="https://instagram.com/otto.chicken" target="_blank" rel="noopener" class="insta-tile bg-dark reveal"><img src="images/illus-sandwich.svg" alt="Post de Instagram OTTO: sandwich" loading="lazy" width="300" height="300"></a>
+        <a href="https://instagram.com/otto.chicken" target="_blank" rel="noopener" class="insta-tile bg-white reveal"><img src="images/illus-fries.svg" alt="Post de Instagram OTTO: fries" loading="lazy" width="300" height="300"></a>
+        <a href="https://instagram.com/otto.chicken" target="_blank" rel="noopener" class="insta-tile bg-yellow reveal"><img src="images/illus-combo.svg" alt="Post de Instagram OTTO: combo" loading="lazy" width="300" height="300"></a>
+        <a href="https://instagram.com/otto.chicken" target="_blank" rel="noopener" class="insta-tile bg-blue reveal"><img src="images/illus-drink.svg" alt="Post de Instagram OTTO: bebida" loading="lazy" width="300" height="300"></a>
+      </div>
+      <a href="https://instagram.com/otto.chicken" target="_blank" rel="noopener" class="btn btn-outline-dark reveal">Follow @otto.chicken</a>
+    </div>
+  </section>
+
+  <!-- ============ CTA FINAL ============ -->
+  <section class="section final-cta">
+    <div class="final-cta-inner reveal">
+      <h2 class="display-xl">ENOUGH<br>SCROLLING.<br>GO GET<br>OTTO.</h2>
+      <a href="#" class="btn btn-blue" data-open-modal>Order now</a>
+    </div>
+    <img src="images/illus-burger.svg" alt="" class="final-cta-img" aria-hidden="true" loading="lazy" width="400" height="400">
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="logo-word logo-word-footer">OTTO<span class="logo-sub">CHICKEN</span></span>
+      <p>Crispy street food<br>Santo Domingo, RD</p>
+    </div>
+
+    <nav class="footer-nav" aria-label="Enlaces del sitio">
+      <h4>Sitio</h4>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#locales">Locales</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="https://instagram.com/otto.chicken" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-contact">
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="#" data-whatsapp-link>WhatsApp</a></li>
+        <li><a href="#horarios">Horarios</a></li>
+        <li><a href="mailto:hola@ottochicken.com">[correo@pendiente]</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-legal">
+      <h4>Legal</h4>
+      <ul>
+        <li><button type="button" data-open-legal="privacy">Política de privacidad</button></li>
+        <li><button type="button" data-open-legal="terms">Términos y condiciones</button></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom container">
+    <p>© <span id="copyright-year"></span> OTTO CHICKEN. Todos los derechos reservados.</p>
+    <p class="footer-disclaimer">Sitio conceptual no oficial — propuesta de diseño para OTTO CHICKEN.</p>
+  </div>
+</footer>
+
+<!-- ============ WHATSAPP FLOTANTE ============ -->
+<a href="#" class="whatsapp-float" data-whatsapp-link target="_blank" rel="noopener" aria-label="Ordena por WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.5 0 9.96-4.46 9.96-9.96S17.54 2 12.04 2Zm0 18.2h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.11.82.83-3.03-.2-.31a8.23 8.23 0 1 1 6.98 3.85Zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.4-.12-.56.13-.17.25-.65.81-.8.97-.15.17-.29.19-.54.06-.25-.12-1.06-.39-2.01-1.24-.74-.66-1.25-1.48-1.39-1.73-.15-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.23.89 2.42 1.02 2.58.12.17 1.75 2.67 4.24 3.75.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.16-.48-.28Z"/></svg>
+  <span class="whatsapp-label">Ordena por WhatsApp</span>
+</a>
+
+<!-- ============ MODAL DE PEDIDO ============ -->
+<div class="modal-overlay" id="order-modal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="order-modal-title">
+    <button class="modal-close" id="order-modal-close" aria-label="Cerrar">✕</button>
+    <h3 id="order-modal-title">¿CÓMO QUIERES TU OTTO?</h3>
+    <div class="modal-options">
+      <a href="#" class="modal-option" data-whatsapp-link target="_blank" rel="noopener">
+        <strong>Delivery</strong>
+        <span>Pide por WhatsApp y te lo llevamos.</span>
+      </a>
+      <a href="#locales" class="modal-option" data-modal-scroll>
+        <strong>Pickup</strong>
+        <span>Elige tu local y pasa a recogerlo.</span>
+      </a>
+      <a href="#locales" class="modal-option" data-modal-scroll>
+        <strong>Dine-in</strong>
+        <span>Ven y disfruta OTTO en el local.</span>
+      </a>
+    </div>
+    <p class="modal-note">Enlaces de ejemplo — conecta aquí tu sistema de pedidos, delivery externo o WhatsApp oficial.</p>
+  </div>
+</div>
+
+<!-- ============ MODAL LEGAL (placeholder) ============ -->
+<div class="modal-overlay" id="legal-modal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="legal-modal-title">
+    <button class="modal-close" id="legal-modal-close" aria-label="Cerrar">✕</button>
+    <h3 id="legal-modal-title">Título</h3>
+    <p id="legal-modal-body">Contenido de ejemplo. Sustituye este texto con la política o los términos oficiales de OTTO CHICKEN.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

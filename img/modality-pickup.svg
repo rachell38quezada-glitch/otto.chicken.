@@ -1,8 +1,0 @@
-<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración de pickup OTTO">
-  <rect width="300" height="300" fill="#FFD328"/>
-  <g stroke="#0A0A0A" stroke-width="7" stroke-linejoin="round">
-    <path d="M100 120 h100 l14 100 h-128 z" fill="#063C98"/>
-    <path d="M115 120 q0 -34 35 -34 q35 0 35 34" fill="none"/>
-  </g>
-  <text x="150" y="175" font-family="Arial, sans-serif" font-weight="900" font-size="16" fill="#FFD328" text-anchor="middle">OTTO</text>
-</svg>

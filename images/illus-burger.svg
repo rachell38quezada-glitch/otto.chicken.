@@ -1,0 +1,40 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración de hamburguesa OTTO">
+  <defs>
+    <pattern id="dots-burger" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="#031E5B" opacity="0.15"/>
+    </pattern>
+  </defs>
+  <circle cx="200" cy="200" r="190" fill="#FFD328"/>
+  <rect x="6" y="6" width="388" height="388" rx="190" fill="url(#dots-burger)"/>
+  <!-- bottom bun -->
+  <path d="M90 260 q110 40 220 0 l-6 34 q-104 34 -208 0 z" fill="#063C98" stroke="#0A0A0A" stroke-width="7" stroke-linejoin="round"/>
+  <!-- pickles (blue rounds) -->
+  <circle cx="150" cy="248" r="9" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="4"/>
+  <circle cx="200" cy="256" r="9" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="4"/>
+  <circle cx="250" cy="248" r="9" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="4"/>
+  <!-- crispy patty -->
+  <path d="M84 232 q116 30 232 0 q6 -30 -10 -46 q-106 -26 -212 0 q-16 16 -10 46 z" fill="#0A0A0A"/>
+  <g fill="#FFD328">
+    <circle cx="130" cy="212" r="4"/>
+    <circle cx="160" cy="200" r="3.5"/>
+    <circle cx="195" cy="214" r="4"/>
+    <circle cx="230" cy="198" r="3.5"/>
+    <circle cx="265" cy="212" r="4"/>
+    <circle cx="140" cy="228" r="3"/>
+    <circle cx="250" cy="228" r="3"/>
+  </g>
+  <!-- cheese drip -->
+  <path d="M78 198 q122 26 244 0 l-8 20 q-10 14 -20 2 q-10 14 -22 0 q-10 14 -22 0 q-10 14 -22 0 q-10 14 -22 0 q-10 14 -22 0 q-10 14 -20 -2 z" fill="#FFD328" stroke="#0A0A0A" stroke-width="6" stroke-linejoin="round"/>
+  <!-- lettuce (white jagged) -->
+  <path d="M82 190 q10 -14 24 -4 q8 -16 22 -6 q8 -16 22 -4 q8 -16 22 -2 q8 -14 22 0 q8 -14 22 2 q8 -14 22 4 q8 -16 22 6 q10 -10 24 4 l-4 18 q-116 22 -232 0 z" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="6" stroke-linejoin="round"/>
+  <!-- top bun -->
+  <path d="M96 176 q0 -70 104 -70 q104 0 104 70 z" fill="#FFD328" stroke="#0A0A0A" stroke-width="7" stroke-linejoin="round"/>
+  <g fill="#FFFFFF" stroke="#0A0A0A" stroke-width="2">
+    <ellipse cx="160" cy="140" rx="6" ry="3" transform="rotate(-20 160 140)"/>
+    <ellipse cx="190" cy="122" rx="6" ry="3" transform="rotate(-10 190 122)"/>
+    <ellipse cx="220" cy="122" rx="6" ry="3" transform="rotate(10 220 122)"/>
+    <ellipse cx="250" cy="140" rx="6" ry="3" transform="rotate(20 250 140)"/>
+    <ellipse cx="205" cy="108" rx="6" ry="3"/>
+  </g>
+  <path d="M96 176 h208" stroke="#0A0A0A" stroke-width="7"/>
+</svg>

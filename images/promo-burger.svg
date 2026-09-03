@@ -1,0 +1,25 @@
+<svg viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Corte transversal de hamburguesa crispy OTTO, dorada por fuera y jugosa por dentro">
+  <g fill="none" stroke="#0A0A0A" stroke-width="12" stroke-linejoin="round">
+    <!-- top bun half -->
+    <path d="M120 260 q0 -140 280 -140 q280 0 280 140 v20 h-560 z" fill="#FFD328"/>
+    <!-- lettuce -->
+    <path d="M120 280 q280 40 560 0 l-14 34 q-266 36 -532 0 z" fill="#FFFFFF"/>
+    <!-- cheese -->
+    <path d="M132 314 q268 34 536 0 l-10 30 q-24 22 -46 0 q-22 22 -46 0 q-22 22 -46 0 q-22 22 -46 0 q-22 22 -46 0 q-22 22 -46 0 q-22 22 -46 0 q-22 22 -46 0 q-22 22 -46 0 q-24 22 -46 -4 z" fill="#FFD328"/>
+    <!-- patty -->
+    <path d="M124 344 q276 40 552 0 q12 34 -8 56 q-268 34 -536 0 q-20 -22 -8 -56z" fill="#0A0A0A"/>
+    <!-- bottom bun -->
+    <path d="M132 400 q268 44 536 0 l-8 60 q-260 46 -520 0 z" fill="#FFD328"/>
+  </g>
+  <g fill="#FFD328" stroke="none">
+    <circle cx="220" cy="378" r="6"/><circle cx="280" cy="366" r="5"/><circle cx="340" cy="380" r="6"/>
+    <circle cx="400" cy="366" r="5"/><circle cx="460" cy="380" r="6"/><circle cx="520" cy="366" r="5"/><circle cx="580" cy="380" r="6"/>
+  </g>
+  <g fill="#FFFFFF" stroke="#0A0A0A" stroke-width="2">
+    <ellipse cx="300" cy="200" rx="10" ry="5" transform="rotate(-15 300 200)"/>
+    <ellipse cx="360" cy="176" rx="10" ry="5"/>
+    <ellipse cx="420" cy="170" rx="10" ry="5"/>
+    <ellipse cx="480" cy="176" rx="10" ry="5" transform="rotate(10 480 176)"/>
+    <ellipse cx="540" cy="200" rx="10" ry="5" transform="rotate(18 540 200)"/>
+  </g>
+</svg>

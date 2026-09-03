@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración de tenders crispy OTTO">
+  <circle cx="200" cy="200" r="190" fill="#063C98"/>
+  <g stroke="#0A0A0A" stroke-width="7" stroke-linejoin="round">
+    <path d="M110 260 q-20 -70 20 -120 q26 -34 66 -18 q26 12 24 44 q-4 60 -46 106 q-30 32 -64 -12z" fill="#FFD328"/>
+    <path d="M190 280 q-24 -68 12 -122 q24 -36 66 -22 q28 10 28 42 q0 62 -38 110 q-28 34 -68 -8z" fill="#FFD328"/>
+    <path d="M270 250 q-16 -66 20 -114 q24 -32 60 -16 q24 12 22 40 q-4 56 -42 98 q-28 30 -60 -8z" fill="#FFD328"/>
+  </g>
+  <g fill="#0A0A0A">
+    <circle cx="150" cy="215" r="3.5"/>
+    <circle cx="170" cy="195" r="3"/>
+    <circle cx="145" cy="190" r="3"/>
+    <circle cx="225" cy="235" r="3.5"/>
+    <circle cx="245" cy="210" r="3"/>
+    <circle cx="220" cy="205" r="3"/>
+    <circle cx="300" cy="205" r="3.5"/>
+    <circle cx="315" cy="180" r="3"/>
+    <circle cx="290" cy="180" r="3"/>
+  </g>
+</svg>
